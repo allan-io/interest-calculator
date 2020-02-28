@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+
+</head>
+<body>
+    <div class="center-display">
+        <div class="title">% Interest Calculator %</div>
+        <div class="inputs">
+            <input class="input" type="number" placeholder="initial savings" id="initSavings">
+            <input class="input" type="number" placeholder="months" id="months" required>
+            <input class="input" type="number" placeholder="monthly deposit" id="deposit">
+            <input class="input" type="number" placeholder="annual rate" id="interest" required>
+        </div>
+        <div class="submit-div">
+            <button class="submit-btn" id="btn">submit</button>
+        </div>
+        <div class="output" id="output">
+            <!-- element that displays result -->
+                <div class="result" id="result"></div>
+        </div>
+        
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
